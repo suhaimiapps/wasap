@@ -1,0 +1,3 @@
+$targets = array("60122414123", "60137882452");
+$message = "This is broadcast message";
+$w->sendBroadcastMessage($targets, $message);
